@@ -15,6 +15,16 @@ import com.google.firebase.messaging.RemoteMessage;
 
 public class MyFirebaseMessagingService extends FirebaseMessagingService {
 
+    @Override
+    public void onNewToken(@NonNull String s) {
+        super.onNewToken(s);
+        String token= FirebaseInstanceId.getInstance().getToken();
+        luuTokenVaoCSDLRieng(token);
+    }
+
+    private void luuTokenVaoCSDLRieng(String token) {
+        new FireBaseIDTask().execute(token);
+    }
 
     @Override
     public void onMessageReceived(RemoteMessage remoteMessage) {
