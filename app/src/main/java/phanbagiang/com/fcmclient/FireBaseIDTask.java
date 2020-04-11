@@ -14,7 +14,7 @@ public class FireBaseIDTask extends AsyncTask<String,Void,Boolean> {
     protected Boolean doInBackground(String... params) {
         try
         {
-            URL url=new URL("http://172.22.28.94/hocfcm/api/fcm/?token="+params[0]);
+            URL url=new URL("http://192.168.1.109/api/fcm?Token="+params[0]);
             HttpURLConnection connection= (HttpURLConnection) url.openConnection();
             connection.setRequestMethod("POST");
             connection.setRequestProperty("Content-Type","application/xml;charset=UTF-8");
