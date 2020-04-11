@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "141480240003",
+    "firebase_url": "https://fcm-cua-tui.firebaseio.com",
+    "project_id": "fcm-cua-tui",
+    "storage_bucket": "fcm-cua-tui.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:141480240003:android:f4b43f237421a5a8208cb6",
+        "android_client_info": {
+          "package_name": "phanbagiang.com.fcmclient"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "141480240003-ae84633jlj85qujmua43vhqt16h9b537.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA2tcsRXwmGui_s0_nyOROAZsj-thRo7Hw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "141480240003-ae84633jlj85qujmua43vhqt16h9b537.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
