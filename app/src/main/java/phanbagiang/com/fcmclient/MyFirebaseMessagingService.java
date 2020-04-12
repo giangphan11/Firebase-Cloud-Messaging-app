@@ -22,8 +22,9 @@ public class MyFirebaseMessagingService extends FirebaseMessagingService {
     @Override
     public void onNewToken(@NonNull String s) {
         super.onNewToken(s);
-        String token= FirebaseInstanceId.getInstance().getToken();
-        luuTokenVaoCSDLRieng(token);
+        //String token= FirebaseInstanceId.getInstance().getToken();
+
+        luuTokenVaoCSDLRieng(s);
     }
 
     private void luuTokenVaoCSDLRieng(String token) {
